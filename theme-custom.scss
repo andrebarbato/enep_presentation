@@ -1,0 +1,177 @@
+// Include theme-specific fonts
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital@0;1&display=swap');
+
+// cores principais:
+// verde: #006633 rgb: 0, 102, 51
+// amarelo: #FFCC00 rgb: 255, 204, 0
+
+/*-- scss:defaults --*/
+// Override theme settings (see ../template/settings.scss)
+// Base settings for all themes that can optionally be
+// overridden by the super-theme
+
+// Background of the presentation
+$backgroundColor: white; // Tom creme/areia suave e elegante
+
+// Primary/body text
+$mainFont: 'Jost', sans-serif;
+$mainFontSize: 25px;
+$mainColor: #333;
+
+// Cores para Negrito e Itálico
+$boldColor: #52658D;     // Verde
+$italicColor: #FFCC00;   // Um tom de dourado/amarelo mais escuro para melhor contraste no fundo creme
+// Vertical spacing between blocks of text
+$blockMargin: 20px;
+
+// Headings
+$headingMargin: 0 0 $blockMargin 0;
+$headingFont: 'Abhaya Libre', Impact, sans-serif;
+$headingColor: #52658D;
+$headingLineHeight: 1.2;
+$headingLetterSpacing: normal;
+$headingTextTransform: none;
+$headingTextShadow: none;
+$headingFontWeight: normal;
+$heading1TextShadow: $headingTextShadow;
+
+$heading1Size: 3.00em;
+$heading2Size: 2.11em;
+$heading3Size: 1.55em;
+$heading4Size: 1.00em;
+
+$codeFont: monospace;
+
+// Links and actions
+$linkColor: #437597;
+$linkColorHover: darken( $linkColor, 20% );
+
+// Text selection
+$selectionBackgroundColor: #52658D;
+$selectionColor: #fff;
+
+/*-- scss:rules --*/
+
+// Estilização de Negrito e Itálico
+strong, b {
+  color: $boldColor;
+  font-weight: bold;
+}
+
+em, i {
+  color: $italicColor;
+}
+
+// start using css here
+#title-slide > h1 {
+  color: #52658D;
+  font-size: 4.5rem !important;
+}
+
+#title-slide .author {
+  color: white;      /* Mantém a cor que você já definiu */
+}
+
+#title-slide {
+  top: 0 !important;
+}
+
+#title-slide > .author:first-of-type {
+  margin-top: 320px;
+}
+
+// Logotipo a direita e no topo
+.reveal .slide-logo {
+  bottom: 20px !important; /* Remove a posição padrão de baixo */
+  right: 20px !important;  /* Distância da direita */
+  top: unset !important;    /* Distância do topo */  
+  left: unset !important;   /* Remove a posição padrão da esquerda */
+  max-height: 80px !important; /* Ajuste o tamanho se necessário */
+}
+
+// Linha sob os títulos h1 e h2
+.reveal h1, 
+.reveal h2 {
+  border-bottom: 2px solid #52658D; /* Usa a mesma cor do seu $headingColor */
+  padding-bottom: 10px;            /* Espaço entre o texto e a linha */
+  margin-bottom: 20px;            /* Espaço entre a linha e o conteúdo abaixo */
+}
+
+/* Seleciona o container que agrupa os autores e empilha os itens */
+.reveal .quarto-title-authors {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important; /* Centraliza os nomes */
+  gap: 10px;                     /* Espaço entre cada autor */
+  margin-top: 250px !important; /* Ajuste este valor para descer mais ou menos */
+}
+
+/* Garante que cada bloco de autor individual ocupe sua própria linha */
+.reveal .quarto-title-author {
+  display: block !important;
+  width: 100%;
+}
+
+/* Adiciona sombreado às callouts */
+.reveal .callout {
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 5px; /* Opcional: arredonda levemente os cantos para combinar com a sombra */
+  margin-bottom: 20px;
+}
+
+// caixa 
+.blackbox {
+  border: 2px solid #FFCC00;
+  padding: 20px;
+  background-color: #faf7e7;
+  border-radius: 5px; /* Arredonda os cantos */
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3); /* Sombra abaixo e a direita */
+}
+
+// caixa: tamanho da fonte 
+.blackbox {
+  // ... (mantenha o código original que já definimos)
+  
+  // Nova classe auxiliar para fonte grande
+  &.font-large {
+    font-size: 1.2em; 
+  }
+
+  // Nova classe auxiliar para fonte pequena
+  &.font-small {
+    font-size: 0.75em;
+  }
+
+  // Nova classe auxiliar para fonte pequena
+  &.font-verysmall {
+    font-size: 0.425em;
+  }
+}
+
+/* Estilização global para imagens nos slides */
+.reveal section img {
+  border-radius: 5px !important;           /* Arredonda os cantos */
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.3) !important; /* Sombra à direita e abaixo */
+  margin-top: 10px;                         /* Espaço extra acima da imagem */
+  margin-bottom: 10px;                      /* Espaço extra abaixo da imagem */
+}
+
+/* Força as colunas a terem a mesma altura */
+.columns {
+  display: flex !important;
+  align-items: stretch;
+}
+
+/* Força o container do callout e o próprio callout a preencherem a altura total */
+.column .callout-main-container, 
+.column .callout {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Garante que o corpo do callout se expanda para empurrar o rodapé/base */
+.callout-body {
+  flex-grow: 1;
+}

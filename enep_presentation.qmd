@@ -1,0 +1,68 @@
+---
+title: "Impacto da reforma trabalhista de 2017 na taxa de desemprego"
+subtitle: "Uma análise através da metodologia de diferenças em diferenças sintético "
+author:
+  - "André Jeremias de Souza Barbato"
+  - "Profª Drª Patrícia Helena F. Cunha"
+format: 
+  revealjs:
+    output-file: "index.html"
+    logo: "img/logo_nova_35pp.jpg"
+    footer: "XXXI Encontro Nacional de Economia Política"
+    theme: ["theme-custom.scss"]
+    slide-number: c/t
+    incremental: true
+---
+
+## Introdução e Objetivos
+
+- **Contexto:** A Reforma Trabalhista (Lei nº 13.467/2017) visava modernizar a CLT, flexibilizar o mercado e gerar empregos;
+- **Objetivo Geral:** Avaliar o impacto da reforma sobre a taxa de desemprego;
+-  **Objetivos Específicos:** Estimar impactos na renda média mensal de trabalhadores formais e no nível de informalidade, com recortes por gênero;
+
+## Referencial Teórico e Debate
+
+- **Visão Neoclássica:** Defende que a flexibilidade salarial e a redução de custos aumentam o nível de emprego;
+- **Visão Heterodoxa (Keynes/Kalecki):** Argumenta que o emprego depende da demanda efetiva; a precarização pode, na verdade, agravar o desemprego
+- **Contradições:** Críticos apontam que a reforma pode fragilizar o poder de barganha dos sindicatos e trabalhadores
+
+## Metodologia: Diferenças em Diferenças Sintético (SDID)
+
+- **O que é:** Uma combinação das metodologias de Diferenças em Diferenças (DID) e Controle Sintético (SCM);
+- **Vantagens:** Torna as tendências paralelas por construção através de reponderação de unidades e tempo, sendo mais robusto que os métodos isolados; 
+- **Aplicação:** Uso de pesos para criar um "Brasil Sintético" (contrafactual) a partir de outros países.
+
+## Dados e Grupo de Controle
+
+- **Fonte de Dados:** World Development Indicators (Banco Mundial) e OIT;
+
+- **Período:** 2003 a 2024 (Pré-tratamento: 2003-2017; Pós-tratamento: 2018-2024);
+
+- **Grupo de Doadores (Controle):** Países da América Latina e Caribe que não realizaram reformas similares no período (ex: Bolívia, México, Colômbia, Chile)
+
+## Resultados: Impacto no Desemprego Total
+
+- **Principal Achado:** A reforma aumentou a taxa de desemprego em média 1,34 p.p. no período pós-tratamento (2018-2024);
+- **Curto Prazo:** Nos primeiros quatro anos após a reforma, o impacto médio negativo foi de 3 p.p. na taxa de desemprego; 
+- **Gráfico Sugerido:** Comparação entre o "Brasil Tratado" e o "Brasil Sintético" (Figura 2 da pesquisa)
+
+## Dinâmica Temporal do Desemprego
+
+- **Inversão de Efeito:** A partir de 2022, o efeito estimado torna-se negativo, sugerindo que a reforma pode ter ajudado a reduzir o desemprego apenas no longo prazo;
+- **Discussão:** Esse resultado pode indicar que os efeitos da reforma demoram a ser absorvidos ou que o mercado respondeu a outros estímulos de demanda agregada.
+
+## Resultados: Renda Média e Informalidade
+
+- **Renda:** O único impacto estatisticamente significante foi sobre a renda média masculina, com um aumento de 7,1%; 
+- **Informalidade:** Não foram encontrados resultados estatisticamente significantes para o impacto da reforma sobre o nível de informalidade.
+
+## Síntese da Literatura Empírica
+
+- **Divergências:** A pesquisa dialoga com outros autores; enquanto Ottoni e Barreira (2021) projetavam redução do desemprego no longo prazo, Santos, Silva e Aragón (2025) também encontraram efeitos adversos de 3 p.p. no curto prazo;
+- **Conclusão da Literatura:** Não há consenso, com estudos apontando efeitos positivos, negativos ou nulos.
+
+## Considerações Finais
+
+- **Conclusão:** A reforma apresentou um efeito negativo inicial (aumento do desemprego), contrariando seu objetivo principal declarado;
+- **Limitações:** Necessidade de novos estudos para verificar se os efeitos positivos recentes (pós-2022) serão mantidos;
+- **Implicação:** O mercado de trabalho parece responder mais fortemente a variáveis de demanda do que apenas a mudanças na legislação.
