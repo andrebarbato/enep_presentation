@@ -21,7 +21,7 @@ $mainColor: #333;
 
 // Cores para Negrito e Itálico
 $boldColor: #52658D;     // Verde
-$italicColor: #FFCC00;   // Um tom de dourado/amarelo mais escuro para melhor contraste no fundo creme
+$italicColor: #D97756;   // Um tom de dourado/amarelo mais escuro para melhor contraste no fundo creme
 // Vertical spacing between blocks of text
 $blockMargin: 20px;
 
@@ -122,9 +122,9 @@ em, i {
 
 // caixa 
 .blackbox {
-  border: 2px solid #FFCC00;
+  border: 2px solid #52658D;
   padding: 20px;
-  background-color: #faf7e7;
+  background-color: color-mix(in srgb, #52658D 7%, white);
   border-radius: 5px; /* Arredonda os cantos */
   box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3); /* Sombra abaixo e a direita */
 }
@@ -145,7 +145,7 @@ em, i {
 
   // Nova classe auxiliar para fonte pequena
   &.font-verysmall {
-    font-size: 0.425em;
+    font-size: 0.6em;
   }
 }
 
@@ -175,3 +175,4 @@ em, i {
 .callout-body {
   flex-grow: 1;
 }
+

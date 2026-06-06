@@ -16,11 +16,131 @@ format:
 
 ## Introdução e Objetivos
 
-- **Contexto:** A Reforma Trabalhista (Lei nº 13.467/2017) visava modernizar a CLT, flexibilizar o mercado e gerar empregos;
-- **Objetivo Geral:** Avaliar o impacto da reforma sobre a taxa de desemprego;
--  **Objetivos Específicos:** Estimar impactos na renda média mensal de trabalhadores formais e no nível de informalidade, com recortes por gênero;
+::: {.fragment .fade-in}
+::: {.blackbox .font-small}
 
-## Referencial Teórico e Debate
+::: {style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;"}
+
+<div style="margin-bottom: -10px; line-height: 1;">
+{{< fa clipboard-list size=2x >}}
+</div>
+
+<div style="margin-top: 0; padding-top: 0;">*Mercado de trabalho no final de 2025*</div>
+
+:::
+
+- A taxa de desemprego **caiu para 5,1%** (5,5 milhões), o menor nível da série histórica da Pnad Contínua do IBGE;
+
+- O nível de ocupação **subiu para 59,1%** (103 milhões);
+
+- Redução da taxa de informalidade de 39% em 2024, **para 38,1% em 2025**;
+
+- Remuneração média dos trabalhadores **cresceu 5%** em relação ao ano anterior, atingindo **R$ 3.613**.
+
+- *A reforma trabalhista de 2017 contribuiu para estes resultados?*
+
+:::
+
+:::
+
+::: {style="margin-bottom: 20px;"}
+:::
+
+::: {.fragment .fade-in}
+
+:::: {.columns style="display: flex;"}
+
+::: {.column width="50%" style="display: flex;"}
+::: {.blackbox .font-small}
+- Um relatório do **FMI** aponta as reformas realizadas como justificativa para as revisões positivas das estimativas de crescimento do PIB, entre elas a reforma trabalhista, que contribuiu para a **redução da litigância** e **insegurança jurídica**, o que por sua vez expandiu o **emprego formal** e **aumento da produtividade**. (Veloso, 2024)
+:::
+:::
+
+::: {.column width="50%" style="display: flex;"}
+::: {.blackbox .font-small}
+- A reforma **falhou em cumprir seus objetivos** de gerar emprego e reduzir a informalidade. O cenário positivo no mercado de trabalho na verdade diz respeito ao resultado do **crescimento econômico** e de **políticas públicas de estímulo à demand**a. (Oliveira e Proni,2024)
+:::
+:::
+
+::::
+
+:::
+
+## Introdução e Objetivos
+
+- **Contexto:** A Reforma Trabalhista (Lei nº 13.467/2017) entra em vigor em novembro de 2017;
+
+::: {.fragment .fade-in}
+
+:::: {.columns style="display: flex;"}
+
+::: {.column width="33.33%" style="display: flex;"}
+
+::: {.blackbox .font-small}
+
+::: {style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;"}
+
+<div style="margin-bottom: -10px; line-height: 1;">
+{{< fa handshake size=2x >}}
+</div>
+
+<div style="margin-top: 0; padding-top: 0;">*Modernização da CLT*</div>
+
+:::
+
+Estabelecer a prevalência do **negociado** sobre o **legislado** e reduzir a insegurança jurídica e litigiosidade.
+:::
+
+:::
+
+::: {.column width="33.33%" style="display: flex;"}
+
+::: {.blackbox .font-small}
+
+::: {style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;"}
+
+<div style="margin-bottom: -10px; line-height: 1;">{{< fa clock size=2x >}}</div>
+
+<div style="margin-top: 0; padding-top: 0;">*Flexibilização do Mercado*</div>
+
+:::
+
+Introduzir novos regimes como **trabalho intermitente**, **teletrabalho** e ampliação irrestrita da **terceirização**.
+:::
+
+:::
+
+::: {.column width="33.33%" style="display: flex;"}
+
+::: {.blackbox .font-small}
+
+::: {style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;"}
+
+<div style="margin-bottom: -10px; line-height: 1;">{{< fa arrow-up-right-dots size=2x >}}</div>
+
+<div style="margin-top: 0; padding-top: 0;">*Combate à Crise*</div>
+
+:::
+
+Aumentar a **produtividade**, gerar **novos empregos** e reduzir drasticamente a **informalidade**.
+:::
+
+:::
+
+::::
+
+:::
+
+::: {style="margin-bottom: 20px;"}
+:::
+
+
+
+- **Objetivo Geral:** Avaliar o impacto da reforma sobre a taxa de desemprego;
+
+-  **Objetivos Específicos:** Estimar impactos na renda média mensal de trabalhadores formais e no nível de informalidade, com recortes por gênero.
+
+## A Determinação do Emprego e Reforma Trabalhista no Brasil 
 
 - **Visão Neoclássica:** Defende que a flexibilidade salarial e a redução de custos aumentam o nível de emprego;
 - **Visão Heterodoxa (Keynes/Kalecki):** Argumenta que o emprego depende da demanda efetiva; a precarização pode, na verdade, agravar o desemprego
