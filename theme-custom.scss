@@ -151,8 +151,8 @@ em, i {
 
 /* Estilização global para imagens nos slides */
 .reveal section img {
-  border-radius: 5px !important;           /* Arredonda os cantos */
-  box-shadow: 10px 10px 20px rgba(0,0,0,0.3) !important; /* Sombra à direita e abaixo */
+  border-radius: 0 !important;           /* Arredonda os cantos */
+  box-shadow: none !important; /* Sombra à direita e abaixo */
   margin-top: 10px;                         /* Espaço extra acima da imagem */
   margin-bottom: 10px;                      /* Espaço extra abaixo da imagem */
 }

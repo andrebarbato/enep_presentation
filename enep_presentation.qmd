@@ -140,17 +140,136 @@ Aumentar a **produtividade**, gerar **novos empregos** e reduzir drasticamente a
 
 -  **Objetivos Específicos:** Estimar impactos na renda média mensal de trabalhadores formais e no nível de informalidade, com recortes por gênero.
 
-## A Determinação do Emprego e Reforma Trabalhista no Brasil 
+## A Determinação do Emprego e Reforma Trabalhista no Brasil
 
-- **Visão Neoclássica:** Defende que a flexibilidade salarial e a redução de custos aumentam o nível de emprego;
-- **Visão Heterodoxa (Keynes/Kalecki):** Argumenta que o emprego depende da demanda efetiva; a precarização pode, na verdade, agravar o desemprego
-- **Contradições:** Críticos apontam que a reforma pode fragilizar o poder de barganha dos sindicatos e trabalhadores
+:::: {.columns style="display: flex;"}
+
+::: {.column width="50%" style="display: flex;"}
+
+::: {.blackbox .font-small}
+
+::: {style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;"}
+
+<div style="margin-bottom: -10px; line-height: 1;">{{< fa store size=2x >}}</div>
+
+<div style="margin-top: 0; padding-top: 0;">*Paradigma Neoclássico (Oferta)*</div>
+
+:::
+
+- *Diagnóstico:* O desemprego é causado pela rigidez dos salários e preços. A teoria da "**Histerese**", desenvolvida por Blanchard e Summers, argumenta que o desemprego passado influencia diretamente o desemprego presente. O desemprego prolongado deterioraria o capital humano, dificultando a recolocação;
+
+- *Solução:* **Flexibilização** dos salários, dos regimes de contratação e da jornada de trabalho podem aumentar o nível de emprego;
+
+- *Influência:* Inspirado na teoria **Novo-Keynesiana** e em recomendações do **FMI**(2016).
+
+:::
+
+
+:::
+
+::: {.column width="50%" style="display: flex;"}
+
+::: {.blackbox .font-small}
+
+::: {style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;"}
+
+<div style="margin-bottom: -10px; line-height: 1;">{{< fa basket-shopping size=2x >}}</div>
+
+<div style="margin-top: 0; padding-top: 0;">*Paradigma Heterodoxo (Demanda)*</div>
+
+:::
+
+- *Diagnóstico:* O desemprego é resultado da **falta de demanda efetiva**;
+
+- *Solução:* **Políticas fiscais expansivas** e **investimento público** seriam os mecanismos corretos para gerar emprego;
+
+- *Consequências:*  A flexibilidade salarial excessiva pode gerar **incerteza** e **reduzir o consumo**, agravando a crise em vez de resolvê-la.
+
+
+:::
+
+:::
+
+::::
+
+## Principais pontos de alteração na CLT 
+
+::: {style="font-size: 0.65em;"}
+
+| Eixo Temático              | Descrição da Mudança                                                                                                                                                                                                              | Crítica                                                                                                                                                                                  |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Negociação Coletiva**    | Art. 611-A: **Prevalência do acordado sobre o legislado**. A Justiça do Trabalho (JT) passa a ter atuação limitada.                                                                                                                   | A JT fica restrita à análise de aspectos meramente formais dos acordos, fragilizando o conteúdo dos direitos e impedindo o controle de mérito sobre cláusulas possivelmente abusivas.    |
+| **Jornada de Trabalho**    | Art. 59: **Banco de horas individual**(compensação em 6 meses); **jornada 12x36** para todas as categorias; indenização apenas do tempo suprimido do intervalo (Art. 71).                                                                | Precarização do descanso e descaracterização do acordo de compensação, uma vez que horas extras habituais deixam de anular o regime de banco de horas.                                   |
+| **Remuneração**            | Art. 457: **Exclusão de abonos e prêmios da base salarial**. Art. 461: Equiparação salarial restrita ao mesmo estabelecimento.                                                                                                        | Gera perda de reflexos em encargos trabalhistas/previdenciários, resultando em uma piora na **desigualdade funcional da renda** e maior **apropriação do excedente pelos empregadores**. |
+| **Regimes de Trabalho**    | Criação do trabalho **intermitente** (Art. 443), **terceirização** da atividade-fim e a categoria do **trabalhador hipersuficiente** (diploma superior e salário >2x teto RGPS), cujos acordos individuais prevalecem sobre os coletivos. | Estímulo a vínculos instáveis que desestimulam o investimento em qualificação. A autonomia plena do hipersuficiente ignora a subordinação jurídica real.                                 |
+| **Rescisão Contratual**    | Art. 484-A: **Rescisão por acordo mútuo**. Fim da homologação sindical obrigatória para contratos superiores a um ano.                                                                                                                | **Redução da multa do FGTS** (20%) e **exclusão do seguro-desemprego** no acordo mútuo. O fim da conferência sindical amplia o **risco de erros no cálculo de verbas** e a insegurança jurídica.     |
+| **Representação Sindical** | **Contribuição sindical facultativa**. Art. 620: Acordos por empresa prevalecem sobre convenções de categoria.                                                                                                                        | Crise aguda de **financiamento dos sindicatos** e enfraquecimento do **poder de barganha**, descentralizando as negociações para níveis onde o trabalhador possui menor defesa coletiva.         |
+
+:::
+
+## Revisão da literatura Empírica
+
+::: {style="font-size: 0.62em;"}
+
+| Autor                               | Delimitação da Análise                                            | Metodologia                                                                        | Principais Resultados                                                                                                                                                        |
+| ----------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Ottoni e Barreira (2021)**        | Impacto de longo prazo no desemprego.                                        | Método de Controle Sintético (SCM)                                                 | Projeção de redução na taxa de desemprego entre -1,17 e -3,46 p.p. com maturação de 5 a 10 anos.                                                                             |
+| **Serra, Bottega e Sanches (2022)** | Impacto no desemprego nos três primeiros anos (curto prazo).                 | Método de Controle Sintético (SCM)                                                 | Inexistência de efeitos estatisticamente significantes sobre o desemprego no período avaliado (2018-2020).                                                                   |
+| **Santos, Silva e Aragón (2025)**   | Avaliação da meta primária (desemprego) e dinâmicas subjacentes.             | Modelo Dinâmico de Fator Latente Multinível (DM-LFM)                               | Efeito adverso: elevação média de 3 p.p. na taxa de desemprego entre 2018 e 2021.                                                                                            |
+| **Kohli (2025)**                    | Impacto das contribuições sindicais facultativas na fiscalização e salários. | Diferenças em Diferenças Sintético (SDID)                                          | Enfraquecimento sindical: redução de 0,9% nos salários e queda de 2,5% no nível de emprego formal.                                                                           |
+| **Azevedo (2021)**                  | Durabilidade do emprego e rotatividade laboral.                              | DiD e Modelos de Sobrevivência (Weibull) com dados da PNAD Contínua (2017-2018).   | Impacto positivo na duração dos contratos (Aumento médio de **48 dias**) e redução da probabilidade de saída do trabalhador (queda de 19% no risco de rescisão).             |
+| **Oreiro et al. (2023)**            | Qualidade do emprego e estrutura ocupacional.                                | Aplicação do Índice de Qualidade do Emprego (EQI); análise de dados em painel para | Aumento da precariedade e informalidade; queda nos salários reais; o desemprego mostrou-se insensível à flexibilização, respondendo prioritariamente ao investimento.        |
+| **Corbi et al. (2022)**             | Litigiosidade e incentivos aos processos trabalhistas.                       | Análise empírica (viés judicial) + Modelo de simulação (_search-matching_).        | Queda acentuada no volume de processos judiciais na Justiça do Trabalho.A reforma teve um **impacto positivo**, reduzindo o desemprego em 1,7 p.p. ao diminuir a litigância. |
+
+:::
 
 ## Metodologia: Diferenças em Diferenças Sintético (SDID)
 
-- **O que é:** Uma combinação das metodologias de Diferenças em Diferenças (DID) e Controle Sintético (SCM);
+::: {style="font-size: 0.9em;"}
+
+- **O que é:** Uma combinação das metodologias de Diferenças em Diferenças (DID) e Controle Sintético (SCM) introduzida por *Arkhangelsky et al. (2021)*;
 - **Vantagens:** Torna as tendências paralelas por construção através de reponderação de unidades e tempo, sendo mais robusto que os métodos isolados; 
 - **Aplicação:** Uso de pesos para criar um "Brasil Sintético" (contrafactual) a partir de outros países.
+
+- **Estimador de SDID:** 
+
+::: {.fragment .fade-in}
+
+$$
+(\hat{\tau}^{sdid}, \hat{\mu}, \hat{\alpha}, \hat{\beta}) = \arg \min_{\tau, \mu, \alpha, \beta} \left\{ \sum_{i=1}^N \sum_{t=1}^T (Y_{it} - \mu - \alpha_i - \beta_t - W_{it} \tau)^2 \hat{\omega}_i^{sdid} \hat{\lambda}_t^{sdid} \right\}
+$$ {#eq-1}
+
+:::
+
+- Onde $\mu$ é o **intercepto** global; $\alpha_i$ captura o efeito fixo para a **unidade**; $\beta_t$ captura o efeito fixo para o **tempo**.
+
+:::
+
+## Metodologia: Diferenças em Diferenças Sintético (SDID)
+
+::: {style="font-size: 0.9em;"}
+
+- Inclusão de **covariáveis** através do processo sugerido por *Krans(2022)*, estimando uma regressão de efeitos fixos bidirecionais, usando apenas as observações que não foram tratadas $W_{it} = 0$:
+
+::: {.fragment .fade-in}
+$$
+Y_{it} = X_{it} \beta + \mu_i + \gamma_t + u_i
+$$ {#eq-2}
+
+:::
+
+- Onde são incluídas as covariáveis $X_{it}$, os efeitos fixos de período $\gamma_t$ e os efeitos fixos da unidade $\mu_i$. Então, calcula-se o resultado ajustado ($Y_{it}^{adj}$) para todas as observações, onde $\beta$ são os coeficientes estimados na equação (2).
+
+
+::: {.fragment .fade-in}
+$$
+Y_{it}^{adj} = Y_{it} - X_{it} \hat{\beta}
+$$ {#eq-3}
+
+:::
+
+- Por fim,  o estimador de SDID é calculado a partir do resultado ajustado ($Y_{it}^{adj}$) da equação (3) através da equação (1).
+:::
 
 ## Dados e Grupo de Controle
 
@@ -160,26 +279,99 @@ Aumentar a **produtividade**, gerar **novos empregos** e reduzir drasticamente a
 
 - **Grupo de Doadores (Controle):** Países da América Latina e Caribe que não realizaram reformas similares no período (ex: Bolívia, México, Colômbia, Chile)
 
+::: {.fragment .fade-in}
+![Elaboração própria a partir de dados do WDI e OIT](img/Figura1.svg){width="75%" fig-align="center"}
+
+:::
+
 ## Resultados: Impacto no Desemprego Total
 
-- **Principal Achado:** A reforma aumentou a taxa de desemprego em média 1,34 p.p. no período pós-tratamento (2018-2024);
-- **Curto Prazo:** Nos primeiros quatro anos após a reforma, o impacto médio negativo foi de 3 p.p. na taxa de desemprego; 
-- **Gráfico Sugerido:** Comparação entre o "Brasil Tratado" e o "Brasil Sintético" (Figura 2 da pesquisa)
+- **Principal resultado:** A reforma aumentou a taxa de desemprego em média *1,34 p.p.* no período pós-tratamento (2018-2024);
 
-## Dinâmica Temporal do Desemprego
+::: {.fragment .fade-in}
+
+![](img/tab1.png){width="75%" fig-align="center"}
+
+:::
+
+## Resultados: Impacto no Desemprego Total
+
+::: {.fragment .fade-in}
+
+![](img/Figura2.svg){width="90%" fig-align="center"}
+
+:::
+
+## Grupo de Controle Estimado
+
+\
+
+:::: {.columns style="display: flex;"}
+
+::: {.column width="80%"}
+
+::: {.fragment .fade-in}
+
+![](img/Anexo_Fig1.svg){width="100%" fig-align="left"}
+
+:::
+
+:::
+
+::: {.column width="20%"}
+
+::: {.fragment .fade-in}
+
+::: {style="font-size: 0.8em;"}
+
+| País | Peso | 
+| :--- | :---: |
+| Bolívia | 0,361 |
+| Rep. Dominicana | 0,249 |
+| México | 0,170 |
+| Colômbia | 0,125 |
+| Chile | 0,091 |
+| Nicarágua | 0,004|
+
+:::
+
+:::
+
+:::
+
+::::
+## Resultados: Curva de efeito estimada
+
+::: {style="font-size: 0.75em;"}
+
+- **Curto Prazo:** Nos primeiros quatro anos após a reforma, o impacto médio negativo foi de *3 p.p. na taxa de desemprego*; 
 
 - **Inversão de Efeito:** A partir de 2022, o efeito estimado torna-se negativo, sugerindo que a reforma pode ter ajudado a reduzir o desemprego apenas no longo prazo;
+
 - **Discussão:** Esse resultado pode indicar que os efeitos da reforma demoram a ser absorvidos ou que o mercado respondeu a outros estímulos de demanda agregada.
 
+:::
+
+::: {.fragment .fade-in}
+
+![](img/Anexo_Fig4.svg){width="70%" fig-align="center"}
+
+:::
+
 ## Resultados: Renda Média e Informalidade
+
+::: {style="font-size: 0.75em;"}
 
 - **Renda:** O único impacto estatisticamente significante foi sobre a renda média masculina, com um aumento de 7,1%; 
 - **Informalidade:** Não foram encontrados resultados estatisticamente significantes para o impacto da reforma sobre o nível de informalidade.
 
-## Síntese da Literatura Empírica
+:::
 
-- **Divergências:** A pesquisa dialoga com outros autores; enquanto Ottoni e Barreira (2021) projetavam redução do desemprego no longo prazo, Santos, Silva e Aragón (2025) também encontraram efeitos adversos de 3 p.p. no curto prazo;
-- **Conclusão da Literatura:** Não há consenso, com estudos apontando efeitos positivos, negativos ou nulos.
+::: {.fragment .fade-in}
+
+![](img/tab3.png){width="70%" fig-align="center"}
+
+:::
 
 ## Considerações Finais
 
