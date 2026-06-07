@@ -298,7 +298,7 @@ $$ {#eq-3}
 
 ::: {.fragment .fade-in}
 
-![](img/Figura2.svg){width="90%" fig-align="center"}
+![](img/Figura2.svg){width="80%" fig-align="center"}
 
 :::
 
@@ -308,21 +308,21 @@ $$ {#eq-3}
 
 :::: {.columns style="display: flex;"}
 
-::: {.column width="80%"}
+::: {.column width="70%"}
 
 ::: {.fragment .fade-in}
 
-![](img/Anexo_Fig1.svg){width="100%" fig-align="left"}
+![](img/Anexo_Fig1.svg){width="80%" fig-align="left"}
 
 :::
 
 :::
 
-::: {.column width="20%"}
+::: {.column width="30%"}
 
 ::: {.fragment .fade-in}
 
-::: {style="font-size: 0.8em;"}
+::: {style="font-size: 0.75em;"}
 
 | País | Peso | 
 | :--- | :---: |
