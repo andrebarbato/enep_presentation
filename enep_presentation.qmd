@@ -378,3 +378,7 @@ $$ {#eq-3}
 - **Conclusão:** A reforma apresentou um efeito negativo inicial (aumento do desemprego), contrariando seu objetivo principal declarado;
 - **Limitações:** Necessidade de novos estudos para verificar se os efeitos positivos recentes (pós-2022) serão mantidos;
 - **Implicação:** O mercado de trabalho parece responder mais fortemente a variáveis de demanda do que apenas a mudanças na legislação.
+
+## Obrigado! 
+
+Agradeço ao CNPq pelo apoio a pesquisa.
