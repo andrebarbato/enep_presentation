@@ -2,8 +2,8 @@
 title: "Impacto da reforma trabalhista de 2017 na taxa de desemprego"
 subtitle: "Uma análise através da metodologia de diferenças em diferenças sintético "
 author:
-  - "André Jeremias de Souza Barbato"
-  - "Profª Drª Patrícia Helena F. Cunha"
+  - "André Jeremias de Souza Barbato (UFABC)"
+  - "Profª Drª Patrícia Helena F. Cunha (UFABC)"
 format: 
   revealjs:
     output-file: "index.html"
@@ -142,6 +142,8 @@ Aumentar a **produtividade**, gerar **novos empregos** e reduzir drasticamente a
 
 ## A Determinação do Emprego e Reforma Trabalhista no Brasil
 
+\
+
 :::: {.columns style="display: flex;"}
 
 ::: {.column width="50%" style="display: flex;"}
@@ -156,11 +158,11 @@ Aumentar a **produtividade**, gerar **novos empregos** e reduzir drasticamente a
 
 :::
 
-- *Diagnóstico:* O desemprego é causado pela rigidez dos salários e preços. A teoria da "**Histerese**", desenvolvida por Blanchard e Summers, argumenta que o desemprego passado influencia diretamente o desemprego presente. O desemprego prolongado deterioraria o capital humano, dificultando a recolocação;
+- *Diagnóstico:* O desemprego é causado pela rigidez dos salários e preços;
 
 - *Solução:* **Flexibilização** dos salários, dos regimes de contratação e da jornada de trabalho podem aumentar o nível de emprego;
 
-- *Influência:* Inspirado na teoria **Novo-Keynesiana** e em recomendações do **FMI**(2016).
+- *Influência:* Inspirado na teoria **Neoclássica** e em recomendações do **FMI**(2016).
 
 :::
 
@@ -415,4 +417,10 @@ $$ {#eq-3}
 
 ## Obrigado! 
 
+\
+
 Agradeço ao CNPq pelo apoio a pesquisa.
+
+\
+
+**Contatos:** andre.barbato@ufabc.edu.br
