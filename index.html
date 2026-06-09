@@ -599,7 +599,7 @@ Profª Drª Patrícia Helena F. Cunha
 <ul>
 <li class="fragment"><p><strong>O que é:</strong> Uma combinação das metodologias de Diferenças em Diferenças (DID) e Controle Sintético (SCM) introduzida por <em>Arkhangelsky et al.&nbsp;(2021)</em>;</p></li>
 <li class="fragment"><p><strong>Vantagens:</strong> Torna as tendências paralelas por construção através de reponderação de unidades e tempo, sendo mais robusto que os métodos isolados;</p></li>
-<li class="fragment"><p><strong>Aplicação:</strong> Uso de pesos para criar um “Brasil Sintético” (contrafactual) a partir de outros países.</p></li>
+<li class="fragment"><p><strong>Aplicação:</strong> Uso de pesos para criar um “Brasil Sintético” (contrafactual) a partir de outros países;</p></li>
 <li class="fragment"><p><strong>Estimador de SDID:</strong></p></li>
 </ul>
 <div class="fragment fade-in">
@@ -608,7 +608,7 @@ Profª Drª Patrícia Helena F. Cunha
 \qquad(1)\]</span></span></p>
 </div>
 <ul>
-<li class="fragment">Onde <span class="math inline">\(\mu\)</span> é o <strong>intercepto</strong> global; <span class="math inline">\(\alpha_i\)</span> captura o efeito fixo para a <strong>unidade</strong>; <span class="math inline">\(\beta_t\)</span> captura o efeito fixo para o <strong>tempo</strong>.</li>
+<li class="fragment">Onde <span class="math inline">\(\mu\)</span> é o <strong>intercepto</strong> global; <span class="math inline">\(\alpha_i\)</span> captura o efeito fixo para a <strong>unidade</strong>; <span class="math inline">\(\beta_t\)</span> captura o efeito fixo para o <strong>tempo</strong>. <span class="math inline">\(\hat{\omega}^{SDID}\)</span> e <span class="math inline">\(\hat{\lambda}^{SDID}\)</span> são respectivamente os <strong>pesos das unidades</strong> e os <strong>pesos do tempo</strong>. E finalmente uma dummy para a <strong>exposição ao tratamento</strong> <span class="math inline">\(W_{it} \in {0,1}\)</span>.</li>
 </ul>
 </div>
 </section>
@@ -638,10 +638,234 @@ Y_{it}^{adj} = Y_{it} - X_{it} \hat{\beta}
 </section>
 <section id="dados-e-grupo-de-controle" class="slide level2">
 <h2>Dados e Grupo de Controle</h2>
+<div class="small-text" style="font-size: 0.50em;">
+<div class="fragment fade-in">
+<table class="caption-top" style="width:100%;">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Variável</th>
+<th style="text-align: center;">Dependente</th>
+<th style="text-align: center;">N</th>
+<th style="text-align: center;">Média</th>
+<th style="text-align: center;">Desvio Padrão</th>
+<th style="text-align: center;">Mínimo</th>
+<th style="text-align: center;">Máximo</th>
+<th style="text-align: center;">Fonte</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Tx. Desemp. (T)</td>
+<td style="text-align: center;">Sim</td>
+<td style="text-align: center;">264</td>
+<td style="text-align: center;">9,45</td>
+<td style="text-align: center;">5,36</td>
+<td style="text-align: center;">2,02</td>
+<td style="text-align: center;">25,22</td>
+<td style="text-align: center;">WDI</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Tx. Desemp. (F)</td>
+<td style="text-align: center;">Sim</td>
+<td style="text-align: center;">264</td>
+<td style="text-align: center;">10,74</td>
+<td style="text-align: center;">5,52</td>
+<td style="text-align: center;">2,70</td>
+<td style="text-align: center;">28,46</td>
+<td style="text-align: center;">WDI</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tx. Desemp. (M)</td>
+<td style="text-align: center;">Sim</td>
+<td style="text-align: center;">264</td>
+<td style="text-align: center;">8,55</td>
+<td style="text-align: center;">5,48</td>
+<td style="text-align: center;">1,39</td>
+<td style="text-align: center;">22,89</td>
+<td style="text-align: center;">WDI</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Renda (T)</td>
+<td style="text-align: center;">Sim</td>
+<td style="text-align: center;">264</td>
+<td style="text-align: center;">807,67</td>
+<td style="text-align: center;">294,71</td>
+<td style="text-align: center;">411,48</td>
+<td style="text-align: center;">1.945,67</td>
+<td style="text-align: center;">OIT</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Renda (M)</td>
+<td style="text-align: center;">Sim</td>
+<td style="text-align: center;">264</td>
+<td style="text-align: center;">864,42</td>
+<td style="text-align: center;">316,68</td>
+<td style="text-align: center;">428,12</td>
+<td style="text-align: center;">2.142,26</td>
+<td style="text-align: center;">OIT</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Renda (F)</td>
+<td style="text-align: center;">Sim</td>
+<td style="text-align: center;">264</td>
+<td style="text-align: center;">754,89</td>
+<td style="text-align: center;">257,21</td>
+<td style="text-align: center;">354,14</td>
+<td style="text-align: center;">1.711,91</td>
+<td style="text-align: center;">OIT</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Emp. Informal (T)</td>
+<td style="text-align: center;">Sim</td>
+<td style="text-align: center;">264</td>
+<td style="text-align: center;">56,18</td>
+<td style="text-align: center;">15,16</td>
+<td style="text-align: center;">25,83</td>
+<td style="text-align: center;">89,80</td>
+<td style="text-align: center;">OIT</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Emp. Informal (M)</td>
+<td style="text-align: center;">Sim</td>
+<td style="text-align: center;">264</td>
+<td style="text-align: center;">57,18</td>
+<td style="text-align: center;">15,02</td>
+<td style="text-align: center;">25,27</td>
+<td style="text-align: center;">87,87</td>
+<td style="text-align: center;">OIT</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Emp. Informal (F)</td>
+<td style="text-align: center;">Sim</td>
+<td style="text-align: center;">264</td>
+<td style="text-align: center;">54,65</td>
+<td style="text-align: center;">15,82</td>
+<td style="text-align: center;">26,63</td>
+<td style="text-align: center;">93,54</td>
+<td style="text-align: center;">OIT</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Tx. Cresc. do PIB</td>
+<td style="text-align: center;">Não</td>
+<td style="text-align: center;">264</td>
+<td style="text-align: center;">3,53</td>
+<td style="text-align: center;">7,11</td>
+<td style="text-align: center;">-24,36</td>
+<td style="text-align: center;">63,33</td>
+<td style="text-align: center;">WDI</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tx. Inflação</td>
+<td style="text-align: center;">Não</td>
+<td style="text-align: center;">264</td>
+<td style="text-align: center;">5,41</td>
+<td style="text-align: center;">12,11</td>
+<td style="text-align: center;">-27,63</td>
+<td style="text-align: center;">174,86</td>
+<td style="text-align: center;">WDI</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Tx. Câmbio Real</td>
+<td style="text-align: center;">Não</td>
+<td style="text-align: center;">264</td>
+<td style="text-align: center;">97,81</td>
+<td style="text-align: center;">16,56</td>
+<td style="text-align: center;">53,79</td>
+<td style="text-align: center;">159,00</td>
+<td style="text-align: center;">WDI</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tx. Juros</td>
+<td style="text-align: center;">Não</td>
+<td style="text-align: center;">264</td>
+<td style="text-align: center;">7,88</td>
+<td style="text-align: center;">10,93</td>
+<td style="text-align: center;">-58,33</td>
+<td style="text-align: center;">54,68</td>
+<td style="text-align: center;">WDI</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Pop. Urbana</td>
+<td style="text-align: center;">Não</td>
+<td style="text-align: center;">264</td>
+<td style="text-align: center;">1,01</td>
+<td style="text-align: center;">1,25</td>
+<td style="text-align: center;">-4,20</td>
+<td style="text-align: center;">3,52</td>
+<td style="text-align: center;">WDI</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ind. Est. Política</td>
+<td style="text-align: center;">Não</td>
+<td style="text-align: center;">264</td>
+<td style="text-align: center;">-0,01</td>
+<td style="text-align: center;">0,72</td>
+<td style="text-align: center;">-2,38</td>
+<td style="text-align: center;">1,22</td>
+<td style="text-align: center;">WDI</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Controle de Corrupção</td>
+<td style="text-align: center;">Não</td>
+<td style="text-align: center;">264</td>
+<td style="text-align: center;">-0,00</td>
+<td style="text-align: center;">0,80</td>
+<td style="text-align: center;">-1,39</td>
+<td style="text-align: center;">1,54</td>
+<td style="text-align: center;">WDI</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tx. Part. da Força de Trabalho</td>
+<td style="text-align: center;">Não</td>
+<td style="text-align: center;">264</td>
+<td style="text-align: center;">63,91</td>
+<td style="text-align: center;">5,35</td>
+<td style="text-align: center;">49,63</td>
+<td style="text-align: center;">78,70</td>
+<td style="text-align: center;">WDI</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FBCF</td>
+<td style="text-align: center;">Não</td>
+<td style="text-align: center;">264</td>
+<td style="text-align: center;">23,13</td>
+<td style="text-align: center;">4,38</td>
+<td style="text-align: center;">11,02</td>
+<td style="text-align: center;">33,60</td>
+<td style="text-align: center;">WDI</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">IDE</td>
+<td style="text-align: center;">Não</td>
+<td style="text-align: center;">264</td>
+<td style="text-align: center;">5,31</td>
+<td style="text-align: center;">6,11</td>
+<td style="text-align: center;">-20,36</td>
+<td style="text-align: center;">52,00</td>
+<td style="text-align: center;">WDI</td>
+</tr>
+</tbody>
+</table>
+<p><em>Nota:</em> Valores baseados nos dados compilados da OIT e WDI.</p>
+</div>
+</div>
+</section>
+<section id="dados-e-grupo-de-controle-1" class="slide level2">
+<h2>Dados e Grupo de Controle</h2>
 <ul>
-<li class="fragment"><p><strong>Fonte de Dados:</strong> World Development Indicators (Banco Mundial) e OIT;</p></li>
-<li class="fragment"><p><strong>Período:</strong> 2003 a 2024 (Pré-tratamento: 2003-2017; Pós-tratamento: 2018-2024);</p></li>
-<li class="fragment"><p><strong>Grupo de Doadores (Controle):</strong> Países da América Latina e Caribe que não realizaram reformas similares no período (ex: Bolívia, México, Colômbia, Chile)</p></li>
+<li class="fragment"><strong>Período:</strong> 2003 a 2024 (Pré-tratamento: 2003-2017; Pós-tratamento: 2018-2024);</li>
+<li class="fragment"><strong>Grupo de Doadores (Controle):</strong> Países da América Latina e Caribe que não realizaram reformas similares no período: Bahamas, Bolívia, Chile, Colômbia, República Dominicana, Guiana, México, Nicarágua, Santa Lúcia, São Vicente e Granadinas e Trinidade e Tobago.</li>
+<li class="fragment"><strong>Países fora da amostra:</strong> Paraguai, Uruguai, Argentina e Costa Rica</li>
 </ul>
 <div class="fragment fade-in">
 <div class="quarto-figure quarto-figure-center">
@@ -684,7 +908,7 @@ Y_{it}^{adj} = Y_{it} - X_{it} \hat{\beta}
 <div class="fragment fade-in">
 <div class="quarto-figure quarto-figure-left">
 <figure>
-<p><img data-src="img/Anexo_Fig1.svg" class="quarto-figure quarto-figure-left" style="width:80.0%"></p>
+<p><img data-src="img/Anexo_Fig1.svg" class="quarto-figure quarto-figure-left" style="width:90.0%"></p>
 </figure>
 </div>
 </div>

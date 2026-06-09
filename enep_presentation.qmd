@@ -229,7 +229,7 @@ Aumentar a **produtividade**, gerar **novos empregos** e reduzir drasticamente a
 
 - **O que é:** Uma combinação das metodologias de Diferenças em Diferenças (DID) e Controle Sintético (SCM) introduzida por *Arkhangelsky et al. (2021)*;
 - **Vantagens:** Torna as tendências paralelas por construção através de reponderação de unidades e tempo, sendo mais robusto que os métodos isolados; 
-- **Aplicação:** Uso de pesos para criar um "Brasil Sintético" (contrafactual) a partir de outros países.
+- **Aplicação:** Uso de pesos para criar um "Brasil Sintético" (contrafactual) a partir de outros países;
 
 - **Estimador de SDID:** 
 
@@ -241,7 +241,7 @@ $$ {#eq-1}
 
 :::
 
-- Onde $\mu$ é o **intercepto** global; $\alpha_i$ captura o efeito fixo para a **unidade**; $\beta_t$ captura o efeito fixo para o **tempo**.
+- Onde $\mu$ é o **intercepto** global; $\alpha_i$ captura o efeito fixo para a **unidade**; $\beta_t$ captura o efeito fixo para o **tempo**. $\hat{\omega}^{SDID}$ e $\hat{\lambda}^{SDID}$ são respectivamente os **pesos das unidades** e os **pesos do tempo**. E finalmente  uma dummy para a **exposição ao tratamento** $W_{it} \in {0,1}$.
 
 :::
 
@@ -273,16 +273,50 @@ $$ {#eq-3}
 
 ## Dados e Grupo de Controle
 
-- **Fonte de Dados:** World Development Indicators (Banco Mundial) e OIT;
+::: {.small-text style="font-size: 0.50em;"}
+
+::: {.fragment .fade-in}
+
+| Variável | Dependente | N | Média | Desvio Padrão | Mínimo | Máximo | Fonte |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Tx. Desemp. (T) | Sim | 264 | 9,45 | 5,36 | 2,02 | 25,22 | WDI |
+| Tx. Desemp. (F) | Sim | 264 | 10,74 | 5,52 | 2,70 | 28,46 | WDI |
+| Tx. Desemp. (M) | Sim | 264 | 8,55 | 5,48 | 1,39 | 22,89 | WDI |
+| Renda (T) | Sim | 264 | 807,67 | 294,71 | 411,48 | 1.945,67 | OIT |
+| Renda (M) | Sim | 264 | 864,42 | 316,68 | 428,12 | 2.142,26 | OIT |
+| Renda (F) | Sim | 264 | 754,89 | 257,21 | 354,14 | 1.711,91 | OIT |
+| Emp. Informal (T) | Sim | 264 | 56,18 | 15,16 | 25,83 | 89,80 | OIT |
+| Emp. Informal (M) | Sim | 264 | 57,18 | 15,02 | 25,27 | 87,87 | OIT |
+| Emp. Informal (F) | Sim | 264 | 54,65 | 15,82 | 26,63 | 93,54 | OIT |
+| Tx. Cresc. do PIB | Não | 264 | 3,53 | 7,11 | -24,36 | 63,33 | WDI |
+| Tx. Inflação | Não | 264 | 5,41 | 12,11 | -27,63 | 174,86 | WDI |
+| Tx. Câmbio Real | Não | 264 | 97,81 | 16,56 | 53,79 | 159,00 | WDI |
+| Tx. Juros | Não | 264 | 7,88 | 10,93 | -58,33 | 54,68 | WDI |
+| Pop. Urbana | Não | 264 | 1,01 | 1,25 | -4,20 | 3,52 | WDI |
+| Ind. Est. Política | Não | 264 | -0,01 | 0,72 | -2,38 | 1,22 | WDI |
+| Controle de Corrupção | Não | 264 | -0,00 | 0,80 | -1,39 | 1,54 | WDI |
+| Tx. Part. da Força de Trabalho | Não | 264 | 63,91 | 5,35 | 49,63 | 78,70 | WDI |
+| FBCF | Não | 264 | 23,13 | 4,38 | 11,02 | 33,60 | WDI |
+| IDE | Não | 264 | 5,31 | 6,11 | -20,36 | 52,00 | WDI |
+
+*Nota:* Valores baseados nos dados compilados da OIT e WDI.
+:::
+
+:::
+
+## Dados e Grupo de Controle
 
 - **Período:** 2003 a 2024 (Pré-tratamento: 2003-2017; Pós-tratamento: 2018-2024);
+- **Grupo de Doadores (Controle):** Países da América Latina e Caribe que não realizaram reformas similares no período: Bahamas, Bolívia, Chile, Colômbia, República Dominicana, Guiana, México, Nicarágua, Santa Lúcia, São Vicente e Granadinas e Trinidade e Tobago.
+- **Países fora da amostra:** Paraguai, Uruguai, Argentina e Costa Rica
 
-- **Grupo de Doadores (Controle):** Países da América Latina e Caribe que não realizaram reformas similares no período (ex: Bolívia, México, Colômbia, Chile)
 
 ::: {.fragment .fade-in}
 ![Elaboração própria a partir de dados do WDI e OIT](img/Figura1.svg){width="75%" fig-align="center"}
 
 :::
+
+
 
 ## Resultados: Impacto no Desemprego Total
 
@@ -312,7 +346,7 @@ $$ {#eq-3}
 
 ::: {.fragment .fade-in}
 
-![](img/Anexo_Fig1.svg){width="80%" fig-align="left"}
+![](img/Anexo_Fig1.svg){width="90%" fig-align="left"}
 
 :::
 
