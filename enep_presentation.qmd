@@ -105,7 +105,7 @@ Estabelecer a prevalência do **negociado** sobre o **legislado** e reduzir a in
 
 :::
 
-Introduzir novos regimes como **trabalho intermitente**, **teletrabalho** e ampliação irrestrita da **terceirização**.
+Introduzir novos regimes como **trabalho intermitente**, **teletrabalho** e ampliação da **terceirização**.
 :::
 
 :::
@@ -196,20 +196,36 @@ Aumentar a **produtividade**, gerar **novos empregos** e reduzir drasticamente a
 
 ## Principais pontos de alteração na CLT 
 
-::: {style="font-size: 0.65em;"}
+\
 
-| Eixo Temático              | Descrição da Mudança                                                                                                                                                                                                              | Crítica                                                                                                                                                                                  |
-| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Negociação Coletiva**    | Art. 611-A: **Prevalência do acordado sobre o legislado**. A Justiça do Trabalho (JT) passa a ter atuação limitada.                                                                                                                   | A JT fica restrita à análise de aspectos meramente formais dos acordos, fragilizando o conteúdo dos direitos e impedindo o controle de mérito sobre cláusulas possivelmente abusivas.    |
-| **Jornada de Trabalho**    | Art. 59: **Banco de horas individual**(compensação em 6 meses); **jornada 12x36** para todas as categorias; indenização apenas do tempo suprimido do intervalo (Art. 71).                                                                | Precarização do descanso e descaracterização do acordo de compensação, uma vez que horas extras habituais deixam de anular o regime de banco de horas.                                   |
-| **Remuneração**            | Art. 457: **Exclusão de abonos e prêmios da base salarial**. Art. 461: Equiparação salarial restrita ao mesmo estabelecimento.                                                                                                        | Gera perda de reflexos em encargos trabalhistas/previdenciários, resultando em uma piora na **desigualdade funcional da renda** e maior **apropriação do excedente pelos empregadores**. |
-| **Regimes de Trabalho**    | Criação do trabalho **intermitente** (Art. 443), **terceirização** da atividade-fim e a categoria do **trabalhador hipersuficiente** (diploma superior e salário >2x teto RGPS), cujos acordos individuais prevalecem sobre os coletivos. | Estímulo a vínculos instáveis que desestimulam o investimento em qualificação. A autonomia plena do hipersuficiente ignora a subordinação jurídica real.                                 |
-| **Rescisão Contratual**    | Art. 484-A: **Rescisão por acordo mútuo**. Fim da homologação sindical obrigatória para contratos superiores a um ano.                                                                                                                | **Redução da multa do FGTS** (20%) e **exclusão do seguro-desemprego** no acordo mútuo. O fim da conferência sindical amplia o **risco de erros no cálculo de verbas** e a insegurança jurídica.     |
-| **Representação Sindical** | **Contribuição sindical facultativa**. Art. 620: Acordos por empresa prevalecem sobre convenções de categoria.                                                                                                                        | Crise aguda de **financiamento dos sindicatos** e enfraquecimento do **poder de barganha**, descentralizando as negociações para níveis onde o trabalhador possui menor defesa coletiva.         |
+::: {style="font-size: 0.8em;"}
+
+| Eixo Temático | Descrição da  Mudança | 
+| ------ | --------------------- | 
+| **Negociação Coletiva**    | Art. 611-A: **Prevalência do acordado sobre o legislado**. | 
+| **Jornada de Trabalho**    | Art. 59: **Estende banco de horas para acordos individuais**(compensação em 6 meses); **jornada 12x36** para todas as categorias; indenização apenas do tempo suprimido do intervalo (Art. 71).                                                                |
+| **Remuneração**            | Art. 457: **Exclusão de abonos e prêmios da base salarial**, deixando de compor a remuneração para fins de encargos trabalhistas e previdenciários. Art. 461: Equiparação salarial restrita ao mesmo estabelecimento.| 
+| **Regimes de Trabalho**    | Criação do trabalho **intermitente** (Art. 443), **terceirização** irrestrita, inclusive da atividade-fim. | 
+| **Rescisão Contratual**    | Art. 484-A: **Rescisão por acordo mútuo**. **Fim da homologação sindical** obrigatória para contratos superiores a um ano. Artigo 477-A **equipara as demissões coletivas às individuais** |
+| **Representação Sindical** | **Contribuição sindical facultativa**. Art. 620: Acordos por empresa prevalecem sobre convenções de categoria. Art. 510, limita a representação sindical no local de trabalho a empresas com 200+ empregados.|
 
 :::
 
-## Revisão da literatura Empírica
+## Críticas à reforma trabalhista
+
+- Carvalho (2017) e Campos (2017) vão destacar os seguintes pontos: 
+
+- Elevação da condição das negociações individuais, a contribuição sindical facultativa e os acordos coletivos firmados no âmbito da empresa **fragilizam a atuação dos sindicatos** e acabam por **reduzir o poder de barganha** dos trabalhadores;
+
+- A flexibilização excessiva e criação de contratos de trabalho atípicos **incentivam vínculos de curta duração**, desestimulando o **investimento em treinamento e qualificação** o que tende a **impactar negativamente a produtividade**;
+
+- A limitação da representação sindical no local de trabalho à empresas com mais de 200 empregados, **limita o papel de resolução de conflitos** dos sindicatos e que dificilmente reduzirá a demanda por ações na JT;
+
+- A reforma poderia levar a formalização de **postos de trabalho precários**, sem ganhos de qualidade;
+
+- O fim da homologação sindical, poderia na verdade **aumentar a litigiosidade** resultando em insegurança jurídica;
+
+## Revisão da literatura empírica
 
 ::: {style="font-size: 0.62em;"}
 
@@ -382,7 +398,7 @@ $$ {#eq-3}
 
 - **Curto Prazo:** Nos primeiros quatro anos após a reforma, o impacto médio negativo foi de *3 p.p. na taxa de desemprego*; 
 
-- **Inversão de Efeito:** A partir de 2022, o efeito estimado torna-se negativo, sugerindo que a reforma pode ter ajudado a reduzir o desemprego apenas no longo prazo;
+- **Inversão de Efeito:** A partir de 2022, o efeito estimado torna-se negativo, sugerindo que é necessário um acompanhamento contínuo do impacto;
 
 - **Discussão:** Esse resultado pode indicar que os efeitos da reforma demoram a ser absorvidos ou que o mercado respondeu a outros estímulos de demanda agregada.
 
@@ -412,14 +428,14 @@ $$ {#eq-3}
 ## Considerações Finais
 
 - **Conclusão:** A reforma apresentou um efeito negativo inicial (aumento do desemprego), contrariando seu objetivo principal declarado;
-- **Limitações:** Necessidade de novos estudos para verificar se os efeitos positivos recentes (pós-2022) serão mantidos;
+
+- **Limitações:** Necessidade de novos estudos para verificar se os efeitos positivos recentes (pós-2022) se mantém na presença de outros controles;
+
 - **Implicação:** O mercado de trabalho parece responder mais fortemente a variáveis de demanda do que apenas a mudanças na legislação.
 
 ## Obrigado! 
 
 \
-
-Agradeço ao CNPq pelo apoio a pesquisa.
 
 \
 
