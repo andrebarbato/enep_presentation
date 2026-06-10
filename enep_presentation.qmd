@@ -439,4 +439,4 @@ $$ {#eq-3}
 
 \
 
-**Contatos:** andre.barbato@ufabc.edu.br
+**Contato:** andre.barbato@ufabc.edu.br
